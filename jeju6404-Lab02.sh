@@ -4,9 +4,8 @@
 sudo apt-get update
 sudo apt-get install -y tree
 sudo apt-get install -y git
-mkdir -p A/aa A/B/bb A/C/cc A/D/dd
-mkdir -p C/cc C/E/ee C/F/ff
-mkdir -p D/dd D/G/gg D/H/hh D/H/J/jj D/H/K/kk D/I/ii
+mkdir -p ~/main/{A/{B,C,D},E/{F,G},H/{I,J/{K,L},M}}
+touch ~/main/{A/{aa,B/bb,C/cc,D/dd},E/{ee,F/ff,G/gg},H/{hh,I/ii,J/{jj,K/kk,L/ll},M/mm}}
 # Put commands below
 # To run, type ./YourID-Lab02.sh (you need the "./")
 # It must have permissions starting with a "7"
